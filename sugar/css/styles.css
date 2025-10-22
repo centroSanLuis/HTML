@@ -1,0 +1,135 @@
+body{
+    background-image: url(/img/siteBackground.jpg);
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    text-align: center;
+    padding-top: 0;
+    padding-right: 20px;
+    padding-bottom: 0;
+    padding-left: 20px;
+
+    /*
+    padding: 20px;
+    padding: 0 20px 0 20px;
+    padding: 0 20px;
+    */
+}
+
+header h1{
+    color: #9F7137;
+}
+
+header h2{
+    color: #5F98A0;
+    text-transform: uppercase;
+}
+
+header img{
+    width: 100%;
+}
+
+nav{
+    background-color: #CFB888;
+    text-align: center;
+    margin-top: 0;
+    margin-right: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+nav div{
+    clear: both;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li{
+    list-style: none;
+    float: left;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+li.selected{
+    background-color: #7D4200;
+}
+
+section{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+
+    overflow: hidden;
+}
+
+section article{
+    float: left;
+    background-color: #CFB888;
+    padding: 15px;
+    width: 30%;
+    box-sizing: border-box; /* para que el padding no cuente en el ancho total*/
+}
+
+section article.centro{
+    /*margin-left: 20px;
+    margin-right: 20px;*/
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+section article img{
+    width: 100%;
+}
+
+#content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#content h3{
+    color: #9F7137;
+}
+
+#content article{
+    float: left;
+    width: 65%;
+}
+
+#content aside{
+    float: right;
+    width: 30%;
+}
+
+#content ul{
+    list-style: url(/img/p.png);
+    padding: 0;
+    margin: 0;
+}
+
+#content ul li{
+    padding: 5px 0;
+    border-bottom: 2px dotted black;
+}
+
+footer{
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    background-color: #CFB888;
+}
+
+footer span{
+    text-decoration: underline;
+    color: #1F7493;
+    text-transform: capitalize;
+}
